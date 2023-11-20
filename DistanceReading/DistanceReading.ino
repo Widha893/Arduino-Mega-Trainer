@@ -42,6 +42,14 @@ void distance_print(){
   lcd.print(" cm");
 }
 
+void distance_print_awikwok(){
+//  lcd.clear();
+  lcd.setCursor(0,0);
+  lcd.print("Pinjam dulu 100");
+//  lcd.setCursor(0,1);
+//  lcd.print("Seratus");
+}
+
 // Print pembacaan jarak ke serial device
 void distance_print_serial(){
   Serial.print("Jarak: ");
@@ -57,10 +65,11 @@ void setup() {
 
 void loop() {
   // Membaca jarak
-  distance_reading();
+//  distance_reading();
   // Menampilkan hasil bacaan di LCD
 //  distance_print();
   // Menampilkan hasil bacaan di Serial Monitor
-  distance_print_serial();
+//  distance_print_serial();
+distance_print_awikwok();
   
 }

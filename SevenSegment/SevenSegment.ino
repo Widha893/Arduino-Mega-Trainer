@@ -19,18 +19,18 @@ void setup() {
 }
 
 void loop() {
-  count_up();
+  zero();
 }
 
 void zero(){
-  digitalWrite(a, HIGH);
-  digitalWrite(b, HIGH);
-  digitalWrite(c, HIGH);
-  digitalWrite(d, HIGH);
-  digitalWrite(e, HIGH);
-  digitalWrite(f, HIGH);
-  digitalWrite(g, LOW);
-  digitalWrite(dp, LOW);
+  digitalWrite(a, LOW);
+  digitalWrite(b, LOW);
+  digitalWrite(c, LOW);
+  digitalWrite(d, LOW);
+  digitalWrite(e, LOW);
+  digitalWrite(f, LOW);
+  digitalWrite(g, HIGH);
+  digitalWrite(dp, HIGH);
 }
 
 void one(){

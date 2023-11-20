@@ -9,7 +9,7 @@ int IN4 = 6;
 float angle = 0.0;
 bool forward = false;
 bool backward = false;
-int delaytime = 5;
+int delaytime = 100;
 
 void lcd_setup(){
   lcd.init();
@@ -44,7 +44,8 @@ void loop()
   // Karena 1 step adalah 11.25 derajat dan
   // 1 kali maju terdiri dari 4 step, maka
   // 1 kali maju sama dengan 45 derajat
-  
+//  writeStepper_forward(6);
+  maju();
 }
 
 
