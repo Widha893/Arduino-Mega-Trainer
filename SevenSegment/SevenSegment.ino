@@ -34,102 +34,102 @@ void zero(){
 }
 
 void one(){
-  digitalWrite(a, LOW);
-  digitalWrite(b, HIGH);
-  digitalWrite(c, HIGH);
-  digitalWrite(d, LOW);
-  digitalWrite(e, LOW);
-  digitalWrite(f, LOW);
-  digitalWrite(g, LOW);
-  digitalWrite(dp, LOW);
+  digitalWrite(a, HIGH);
+  digitalWrite(b, LOW);
+  digitalWrite(c, LOW);
+  digitalWrite(d, HIGH);
+  digitalWrite(e, HIGH);
+  digitalWrite(f, HIGH);
+  digitalWrite(g, HIGH);
+  digitalWrite(dp, HIGH);
 }
 
 void two(){
+  digitalWrite(a, LOW);
+  digitalWrite(b, LOW);
+  digitalWrite(c, HIGH);
+  digitalWrite(d, LOW);
+  digitalWrite(e, LOW);
+  digitalWrite(f, HIGH);
+  digitalWrite(g, LOW);
+  digitalWrite(dp, HIGH);
+}
+
+void three(){
+  digitalWrite(a, LOW);
+  digitalWrite(b, LOW);
+  digitalWrite(c, LOW);
+  digitalWrite(d, LOW);
+  digitalWrite(e, HIGH);
+  digitalWrite(f, HIGH);
+  digitalWrite(g, LOW);
+  digitalWrite(dp, HIGH);
+}
+
+void four(){
   digitalWrite(a, HIGH);
-  digitalWrite(b, HIGH);
+  digitalWrite(b, LOW);
   digitalWrite(c, LOW);
   digitalWrite(d, HIGH);
   digitalWrite(e, HIGH);
   digitalWrite(f, LOW);
-  digitalWrite(g, HIGH);
-  digitalWrite(dp, LOW);
-}
-
-void three(){
-  digitalWrite(a, HIGH);
-  digitalWrite(b, HIGH);
-  digitalWrite(c, HIGH);
-  digitalWrite(d, HIGH);
-  digitalWrite(e, LOW);
-  digitalWrite(f, LOW);
-  digitalWrite(g, HIGH);
-  digitalWrite(dp, LOW);
-}
-
-void four(){
-  digitalWrite(a, LOW);
-  digitalWrite(b, HIGH);
-  digitalWrite(c, HIGH);
-  digitalWrite(d, LOW);
-  digitalWrite(e, LOW);
-  digitalWrite(f, HIGH);
-  digitalWrite(g, HIGH);
-  digitalWrite(dp, LOW);
+  digitalWrite(g, LOW);
+  digitalWrite(dp, HIGH);
 }
 
 void five(){
-  digitalWrite(a, HIGH);
-  digitalWrite(b, LOW);
-  digitalWrite(c, HIGH);
-  digitalWrite(d, HIGH);
-  digitalWrite(e, LOW);
-  digitalWrite(f, HIGH);
-  digitalWrite(g, HIGH);
-  digitalWrite(dp, LOW);
+  digitalWrite(a, LOW);
+  digitalWrite(b, HIGH);
+  digitalWrite(c, LOW);
+  digitalWrite(d, LOW);
+  digitalWrite(e, HIGH);
+  digitalWrite(f, LOW);
+  digitalWrite(g, LOW);
+  digitalWrite(dp, HIGH);
 }
 
 void six(){
-  digitalWrite(a, HIGH);
-  digitalWrite(b, LOW);
-  digitalWrite(c, HIGH);
-  digitalWrite(d, HIGH);
-  digitalWrite(e, HIGH);
-  digitalWrite(f, HIGH);
-  digitalWrite(g, HIGH);
-  digitalWrite(dp, LOW);
-}
-
-void seven(){
-  digitalWrite(a, HIGH);
+  digitalWrite(a, LOW);
   digitalWrite(b, HIGH);
-  digitalWrite(c, HIGH);
+  digitalWrite(c, LOW);
   digitalWrite(d, LOW);
   digitalWrite(e, LOW);
   digitalWrite(f, LOW);
   digitalWrite(g, LOW);
-  digitalWrite(dp, LOW);
+  digitalWrite(dp, HIGH);
 }
 
-void eight(){
-  digitalWrite(a, HIGH);
-  digitalWrite(b, HIGH);
-  digitalWrite(c, HIGH);
+void seven(){
+  digitalWrite(a, LOW);
+  digitalWrite(b, LOW);
+  digitalWrite(c, LOW);
   digitalWrite(d, HIGH);
   digitalWrite(e, HIGH);
   digitalWrite(f, HIGH);
   digitalWrite(g, HIGH);
-  digitalWrite(dp, LOW);
+  digitalWrite(dp, HIGH);
+}
+
+void eight(){
+  digitalWrite(a, LOW);
+  digitalWrite(b, LOW);
+  digitalWrite(c, LOW);
+  digitalWrite(d, LOW);
+  digitalWrite(e, LOW);
+  digitalWrite(f, LOW);
+  digitalWrite(g, LOW);
+  digitalWrite(dp, HIGH);
 }
 
 void nine(){
-  digitalWrite(a, HIGH);
-  digitalWrite(b, HIGH);
-  digitalWrite(c, HIGH);
-  digitalWrite(d, HIGH);
-  digitalWrite(e, LOW);
-  digitalWrite(f, HIGH);
-  digitalWrite(g, HIGH);
-  digitalWrite(dp, LOW);
+  digitalWrite(a, LOW);
+  digitalWrite(b, LOW);
+  digitalWrite(c, LOW);
+  digitalWrite(d, LOW);
+  digitalWrite(e, HIGH);
+  digitalWrite(f, LOW);
+  digitalWrite(g, LOW);
+  digitalWrite(dp, HIGH);
 }
 
 void count_down(){
