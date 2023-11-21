@@ -22,9 +22,9 @@ void dcpin_init()
 
 void DC_spin (String direction, float pwm)
 {
-  if (direction.equalsIgnoreCase(DC_direction[0]))
+  if (direction.equalsIgnoreCase(DC_direction[0])) //CW
   {
-    analogWrite(in2_DC,pwm);
+    analogWrite(in1_DC,pwm);
 
     lcd.setCursor(0, 0);
     lcd.print(DC_direction[0]);
@@ -33,9 +33,9 @@ void DC_spin (String direction, float pwm)
     lcd.setBacklight(1);
   // delay(500);
   }
-  else if (direction.equalsIgnoreCase(DC_direction[1]))
+  else if (direction.equalsIgnoreCase(DC_direction[1])) //CCW
   {
-  	analogWrite(in1_DC,pwm);
+  	analogWrite(in2_DC,pwm);
 
     lcd.setCursor(0, 0);
     lcd.print(DC_direction[1]);
@@ -57,5 +57,5 @@ void setup()
 
 void loop()
 {
-	DC_spin ("cw", 1600);
+	DC_spin ("cw", 255); ///pwm range 0-255
 }
