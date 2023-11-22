@@ -5,7 +5,7 @@ float volt, temp;
 void read_temp(){
     adc = analogRead(A3);
     volt = (adc/1023.0)*5.0;
-    temp = (volt-0.5)*100.0;
+    temp = (volt)*100.0;
 }
 
 void print_temp_serial(){
